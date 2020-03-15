@@ -19,6 +19,9 @@ python manage.py migrate
 python manage.py makemigrations cbv_app
 python manage.py migrate
 python manage.py runserver
+
+-----------------Create Super User----------------------------
+python manage.py createsuperuser
 --------------------------------------------------------------
 git add .
 git commit . -m 'second'
