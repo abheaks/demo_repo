@@ -1,0 +1,26 @@
+jupyter notebook on terminal
+
+
+source /home/abheaks/anaconda3/bin/activate
+anaconda-navigator
+
+
+--------------------------------------------------------------
+conda activate MyDjangoEnv
+conda deactivate
+
+django-admin
+--------------------------------------------------------------
+django-admin startproject cbv_pro
+python manage.py startapp cbv_app
+
+-----------------After creating models------------------------
+python manage.py migrate
+python manage.py makemigrations cbv_app
+python manage.py migrate
+python manage.py runserver
+--------------------------------------------------------------
+git add .
+git commit . -m 'second'
+git remote add orgin https://github.com/abheaks/demo_repo.git
+git push -u orgin master
